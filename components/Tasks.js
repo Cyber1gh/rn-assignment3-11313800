@@ -16,7 +16,7 @@ const tasks = [
   { id: '12', name: 'Movie night' },
   { id: '13', name: 'Install a software' },
   { id: '14', name: 'Dress to the bar' },
-  { id: '15', name: 'Run i the morning' },
+  { id: '15', name: 'Run in the morning' },
 ];
 
 const Tasks = () => {
