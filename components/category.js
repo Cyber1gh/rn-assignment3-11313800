@@ -3,11 +3,11 @@ import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
 
 const categories = [
   { id: '1', name: 'Exercise', tasks: 12, image: require('../assets/buy.jpeg') },
-  { id: '2', name: 'Study', tasks: 12, image: require('../assets/code.jpeg') },
+  { id: '2', name: 'Study', tasks: 12, image: require('../assets/code.jpg') },
   { id: '3', name: 'Code', tasks: 8, image: require('../assets/dance.jpeg') },
   { id: '4', name: 'Cook', tasks: 5, image: require('../assets/eat.jpeg') },
-  { id: '5', name: 'Read', tasks: 7, image: require('../assets/sell.jpeg') },
-  { id: '6', name: 'Shop', tasks: 3, image: require('../assets/buy.jpeg') },
+  { id: '5', name: 'Read', tasks: 7, image: require('../assets/sell.png') },
+  { id: '6', name: 'Shop', tasks: 3, image: require('../assets/eat.jpeg') },
   { id: '7', name: 'Clean', tasks: 4, image: require('../assets/buy.jpeg') },
   { id: '8', name: 'Travel', tasks: 6, image: require('../assets/buy.jpeg') },
 ];

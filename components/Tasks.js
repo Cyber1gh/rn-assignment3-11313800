@@ -19,7 +19,7 @@ const tasks = [
   { id: '15', name: 'Run i the morning' },
 ];
 
-const Task = () => {
+const Tasks = () => {
   return (
     
     <View style={styles.ongoingTaskSection}>
@@ -68,4 +68,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Task;
+export default Tasks;

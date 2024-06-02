@@ -6,7 +6,7 @@ const Header = () => {
     <View style={styles.header}>
       <View style={styles.greeting}>
         <Text style={styles.greetingText}>Hello, Devs</Text>
-         <Image source={require('../assets/profile.png')} style={styles.profileImage} />
+         <Image source={require('../assets/Profile.png')} style={styles.profileImage} />
       </View>
       <View><Text style={styles.taskCount}>14 tasks today</Text></View>
 
@@ -15,7 +15,7 @@ const Header = () => {
         <TextInput style={[styles.searchInput, styles.placeholder]} placeholder="Search" />
         {/* <Button title="Filter" onPress={() => {}} color="#FA7249" /> */}
         <TouchableOpacity onPress={() =>{}}>
-          <Image source={require('../assets/filter.png')} style= {styles.filterIcon}/>
+          <Image source={require('../assets/Filter.png')} style= {styles.filterIcon}/>
         </TouchableOpacity>
 
       </View>

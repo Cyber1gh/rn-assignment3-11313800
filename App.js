@@ -1,8 +1,8 @@
 import React from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import Header from './components/Header';
-import Category from './components/Category';
-import Task from './components/Task';
+import Category from './components/category';
+import Tasks from './components/Tasks';
 
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
       <Header />
       <ScrollView>
         <Category />
-        <OngoingTask />
+        <Tasks />
       </ScrollView>
     </View>
   );
