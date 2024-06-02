@@ -6,3 +6,5 @@
 # Button: Used for triggering actions, such as adding new tasks or marking tasks as completed.
 # FlatList or SectionList: Implemented for rendering lists of tasks under different categories.
 # Image: Utilized for displaying icons and images within the application.
+![screenshot](screenshot.jpg)
+
